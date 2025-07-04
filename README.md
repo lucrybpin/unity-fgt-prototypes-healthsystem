@@ -23,7 +23,7 @@ _health = new HealthSystem(100);
 
 | Method                   | Description                                               |
 |--------------------------|-----------------------------------------------------------|
-| `ReceiveDamage(foat amount)` | Reduces current health by the specified amount.       |
+| `ReceiveDamage(float amount)` | Reduces current health by the specified amount.       |
 | `Heal(float amount)`         | Restores health by the specified amount.              |
 | `Revive()`                 | Restores health if the entity is currently at 0 HP.   |
 | `SetMax(float max)`          | Changes the maximum health value.                     |
