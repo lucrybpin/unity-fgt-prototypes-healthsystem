@@ -25,7 +25,7 @@ _health = new HealthSystem(100);
 |--------------------------|-----------------------------------------------------------|
 | `ReceiveDamage(float amount)` | Reduces current health by the specified amount.       |
 | `Heal(float amount)`         | Restores health by the specified amount.              |
-| `Revive()`                 | Restores health if the entity is currently at 0 HP.   |
+| `Revive(float lifePercentage)`                 | Restores health if the entity is currently at 0 HP.   |
 | `SetMax(float max)`          | Changes the maximum health value.                     |
 | `GetCurrent()`             | Returns the current health value.                     |
 | `GetMax()`                 | Returns the maximum health value.                     |
