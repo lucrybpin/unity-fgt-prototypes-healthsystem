@@ -1,0 +1,16 @@
+{
+  "name": "fgt.prototypes.healthsystem",
+  "version": "1.0.0",
+  "displayName": "FGT - Prototypes - HealthSystem",
+  "description": "Fast prototyping tool to add a simple health system to your game prototype.",
+  "licensesUrl": "https://opensource.org/licenses/MIT",
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.9"
+ },
+ "keywords": [
+    "FGT",
+    "Prototypes",
+    "Health",
+    "System"
+  ]
+}
