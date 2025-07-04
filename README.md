@@ -23,10 +23,10 @@ _health = new HealthSystem(100);
 
 | Method                   | Description                                               |
 |--------------------------|-----------------------------------------------------------|
-| `ReceiveDamage(int amount)` | Reduces current health by the specified amount.       |
-| `Heal(int amount)`         | Restores health by the specified amount.              |
+| `ReceiveDamage(foat amount)` | Reduces current health by the specified amount.       |
+| `Heal(float amount)`         | Restores health by the specified amount.              |
 | `Revive()`                 | Restores health if the entity is currently at 0 HP.   |
-| `SetMax(int max)`          | Changes the maximum health value.                     |
+| `SetMax(float max)`          | Changes the maximum health value.                     |
 | `GetCurrent()`             | Returns the current health value.                     |
 | `GetMax()`                 | Returns the maximum health value.                     |
 
@@ -35,5 +35,7 @@ _health = new HealthSystem(100);
 ## 📦 Installation
 
 You can import this system as a Unity package via UPM.
+
 [Github] - Button "<> Code" -> Tab Local -> Tab HTTPS -> Copy url displayed in the field.
+
 [Unity] - Window -> Package Manager -> + -> Add Package from git URL... -> Paste the github https code.
