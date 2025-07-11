@@ -7,13 +7,14 @@ namespace FGT.Prototypes.HealthSystem.Demo
     {
         [SerializeField] HealthSystem _health;
         [SerializeField] Animator _animator;
+        [SerializeField] HealthSystemView _view;
 
         public Action<float> OnHealthChanged;
         public Action OnRevive;
 
         public void OnStart()
         {
-            _health = new HealthSystem(100);
+            _health = new HealthSystem(100, _view);
             _health.OnHealthChanged += HealthSystem_OnHealthChanged;
             _health.OnDie += OnDie;
             _health.OnRevive += HealthSystem_OnRevive;

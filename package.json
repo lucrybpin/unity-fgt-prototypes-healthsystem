@@ -7,10 +7,17 @@
   "dependencies": {
     "com.unity.textmeshpro": "3.0.9"
  },
+ "samples": [
+  {
+    "displayName": "Mushroom Example",
+    "description": "Example of a simple health system using a mushroom. Includes Hit, Heal, Revive and Damage Over Time.",
+    "path": "Samples~/Mushroom Example"
+  }
+ ],
  "keywords": [
     "FGT",
-    "Prototypes",
-    "Health",
-    "System"
+    "prototypes",
+    "health",
+    "system"
   ]
 }
